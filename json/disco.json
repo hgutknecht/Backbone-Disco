@@ -1,0 +1,641 @@
+{
+  "credits": {
+    "film": [
+      {
+        "filmTitle": "Red Eye",
+        "filmYear": "2005",
+        "filmComposition": "'Early Fall'"
+      },
+      {
+        "filmTitle": "Murder By Numbers",
+        "filmYear": "2002",
+        "filmComposition": "'Take A Ride'"
+      },
+      {
+        "filmTitle": "Fled",
+        "filmYear": "1996",
+        "filmComposition": "'Word', performed by God's Gift To God"
+      },
+      {
+        "filmTitle": "Beowolf",
+        "filmYear": "1999",
+        "filmComposition": "'Universe', performed by Laughing Us"
+      },
+      {
+        "filmTitle": "John Tucker Must Die",
+        "filmYear": "2006",
+        "filmComposition": "'Early Fall'"
+      },
+      {
+        "filmTitle": "Sleepover",
+        "filmYear": "2005",
+        "filmComposition": "'I Wanna Make You Yell', written with Joe Faraci"
+      },
+      {
+        "filmTitle": "Domino",
+        "filmYear": "2005",
+        "filmComposition": "'Next Trend'"
+      },
+      {
+        "filmTitle": "Zoolander",
+        "filmYear": "2001",
+        "filmComposition": "'Le Boo', performed by Laughing Us (production)"
+      },
+      {
+        "filmTitle": "Virginia's Run (Independent Feature)",
+        "filmYear": "2002",
+        "filmComposition": "'On A Mission', performed by Laughing Us",
+        "filmLink": "YouTUbe"
+      },
+      {
+        "filmTitle": "Plugged In (Independent Feature) ",
+        "filmYear": "2002",
+        "filmComposition": "'Electronic Satisifaction'",
+        "filmLink": "http://video.google.com/googleplayer.swf?docid=-8354165027568226766"
+      }
+    ],
+    "tv": [
+      {
+        "showTitle": "Crossing Jordan",
+        "network": "NBC"
+      },
+      {
+        "showTitle": "Saturday Night Live, Tonight Show, Last Comic Standing",
+        "network": "NBC",
+        "episodeTitle": "PROMO"
+      },
+      {
+        "showTitle": "Sex In The City",
+        "network": "HBO",
+        "episodeTitle": "Change Of A Dress, Running With Sissors, Sex and Another City"
+      },
+      {
+        "showTitle": "C.S.I. (Vegas)",
+        "network": "CBS",
+        "episodeTitle": "All For Our Country, Alter Boys, Slaves of Las Vegas"
+      },
+      {
+        "showTitle": "Tru Calling",
+        "network": "FOX",
+        "episodeTitle": "Past Tense"
+      },
+      {
+        "showTitle": "Navy C.S.I.",
+        "network": "CBS",
+        "episodeTitle": "Call Of Silence, Dead Man Talking, Heart Break, Missing, My Other Left Foot, Truth Is Out There"
+      },
+      {
+        "showTitle": "Smallville",
+        "network": "WB,CW",
+        "episodeTitle": "WB, Hug, Kinetic, Leech, Prodigal Son"
+      },
+      {
+        "showTitle": "Providence",
+        "network": "NBC, LIFE",
+        "episodeTitle": "Good Fight"
+      },
+      {
+        "showTitle": "Just Deal ",
+        "network": "NBC",
+        "episodeTitle": "Flashback, Concientious Objection, One For The Road, Picture Day, School Prayer"
+      },
+      {
+        "showTitle": "Boston Public",
+        "network": "FOX",
+        "episodeTitle": "Chapter 45, 49"
+      },
+      {
+        "showTitle": "Birds Of Prey",
+        "network": "WB",
+        "episodeTitle": "Lady Shiva"
+      },
+      {
+        "showTitle": "Access Hollywood",
+        "network": "NBC",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "E! Love Chain, Fashion Police",
+        "network": "EENT",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Glory Days",
+        "network": "WB",
+        "episodeTitle": "Devil Made Me Do It, Lost Girls"
+      },
+      {
+        "showTitle": "Guiding Light, Young & Restless",
+        "network": "CBS",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Strong Medicine",
+        "network": "LIFE",
+        "episodeTitle": "BRCA 1"
+      },
+      {
+        "showTitle": "Felicity",
+        "network": "WB",
+        "episodeTitle": "Oops Noel Did It Again, Ben Don't Leave Me"
+      },
+      {
+        "showTitle": " Level Nine",
+        "network": "UPN",
+        "episodeTitle": "10 Little Hackers, Multiple Episodes"
+      },
+      {
+        "showTitle": "Undeclared",
+        "network": "FOX",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Night Visions",
+        "network": "SCIFI",
+        "episodeTitle": "Cargo/Switch"
+      },
+      {
+        "showTitle": "Bang Bang Your Dead ",
+        "network": "SHO",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Skinwalkers ",
+        "network": "PBS",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "XMEN, Pokemon, Max Steel, Yohgi!",
+        "network": "WB",
+        "episodeTitle": "Needle Drops"
+      },
+      {
+        "showTitle": "Charmed",
+        "network": "WB",
+        "episodeTitle": "Animal Pragmatism, How to make a Quilt, My Three Witches, Sympathy for the Demon"
+      },
+      {
+        "showTitle": "Undressed",
+        "network": "MTV",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Jack and Jill ",
+        "episodeTitle": "What Weddings Do"
+      },
+      {
+        "showTitle": "Maybe It's Me",
+        "network": "WB",
+        "episodeTitle": "Lunch Lady"
+      },
+      {
+        "showTitle": "Sabrina The Teenage Witch",
+        "network": "NBC,WB, Cloud Ten",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Blue Torch TV ",
+        "network": "Fox Sports Net"
+      },
+      {
+        "showTitle": "Wild On",
+        "network": "EENT",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": " Angel",
+        "network": "WB",
+        "episodeTitle": "Network Ring, She, Thin Dead Line"
+      },
+      {
+        "showTitle": "Buffy",
+        "network": "WB"
+      },
+      {
+        "showTitle": "Popular",
+        "network": "WB",
+        "episodeTitle": "It's All Greek To Me, What Makes Sammy Run"
+      },
+      {
+        "showTitle": "AJ Afterhours ",
+        "network": "OCS",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Punk'd",
+        "network": "MTV",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "True Hollywood Story",
+        "network": "EENT",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Jake 2.0 ",
+        "network": "WB",
+        "episodeTitle": "Jerry 2.0, Spy Who Really Liked Me, Whiskey Tango"
+      },
+      {
+        "showTitle": "Jack & Bobby",
+        "network": "WB",
+        "episodeTitle": "Kindness Of Strangers"
+      },
+      {
+        "showTitle": "Roadtrip Nation",
+        "network": "PBS",
+        "episodeTitle": "212"
+      },
+      {
+        "showTitle": "ER",
+        "network": "NBC",
+        "episodeTitle": "Wake Up"
+      },
+      {
+        "showTitle": "Third Watch",
+        "network": "NBC",
+        "episodeTitle": "Exposing Faith, Run of the Mill, Modern Designs for Better Living, Greater Good, Know Thyself, Requiem for a Bantamweight"
+      },
+      {
+        "showTitle": "JAG",
+        "network": "NBC",
+        "episodeTitle": "Persian Gulf, Take It Like A Man"
+      },
+      {
+        "showTitle": "Handler",
+        "network": "CBS",
+        "episodeTitle": "Dirty White Collar"
+      },
+      {
+        "showTitle": "Joan of Arcadia",
+        "network": "CBS",
+        "episodeTitle": "Pilot"
+      },
+      {
+        "showTitle": "Kingpin",
+        "network": "BRV",
+        "episodeTitle": "French Connection, Gimme Shelter"
+      },
+      {
+        "showTitle": "One on One",
+        "network": "UPN",
+        "episodeTitle": "Checkmate Daddy"
+      },
+      {
+        "showTitle": "Las Vegas",
+        "episodeTitle": "Can You See What I See, Hide And Sneak"
+      },
+      {
+        "showTitle": "American Campus",
+        "network": "MTV"
+      },
+      {
+        "showTitle": "Date My Mom",
+        "network": "MTV",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Making The Video",
+        "network": "MTV",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Gone Bad",
+        "network": "MTV"
+      },
+      {
+        "showTitle": "Next",
+        "network": "MTV"
+      },
+      {
+        "showTitle": "Mudgeboy",
+        "network": "MTV"
+      },
+      {
+        "showTitle": "What About Brian",
+        "network": "ABC",
+        "episodeTitle": "What About The Wedding, What About 2nd Chances"
+      },
+      {
+        "showTitle": "Brothers and Sisters",
+        "network": "ABC",
+        "episodeTitle": "Three Parties"
+      },
+      { "showTitle": "Ghost whisper" },
+      { "showTitle": "Love Chain" },
+      { "showTitle": "Like A Dream" },
+      {
+        "showTitle": "Bernie Mac Show",
+        "network": "FOX",
+        "episodeTitle": "Love Bug"
+      },
+      {
+        "showTitle": "Parkers",
+        "network": "UPN",
+        "episodeTitle": "Accidental Thereapy"
+      },
+      {
+        "showTitle": "Dr 90210",
+        "network": "EENT, STYL",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Ugly Betty",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Celebrity Expose",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Daily 100",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Lost",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "King of the Hill",
+        "network": "FOX",
+        "episodeTitle": "Arlen City Bomber"
+      },
+      {
+        "showTitle": "All My Children",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "General Hospital",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "The Soup",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "America's Next Top Model",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "E! News Live, Fashion Week, Facing Fame",
+        "network": "STYL, EENT",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "E! It's Good To Be..., Fashion Trance, Style Star",
+        "network": "STYL, EENT",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "E! Look For Less, Love Chain, Rank, Revealed",
+        "network": "STYL, EENT",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Haunted",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "How Do I Look?",
+        "network": "STYL",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Runway",
+        "network": "STYL",
+        "episodeTitle": "Multiple Episodes"
+      },
+      {
+        "showTitle": "Lizzy McGuire",
+        "network": "ABC, DISN",
+        "episodeTitle": "Party Over Here, 209"
+      },
+      {
+        "showTitle": "Infamous",
+        "network": "EENT",
+        "episodeTitle": "09,10 THEME"
+      },
+      {
+        "showTitle": "Everwood",
+        "network": "WB",
+        "episodeTitle": "Unfinished Business, My Brothers Keeper"
+      }
+    ],
+    "prod": [
+      {
+        "prodArtist": "Katy Mae",
+        "prodAlbum": "You May Already Be A Winner",
+        "prodRole": "Composition",
+        "prodYear": "2008"
+      },
+      {
+        "prodArtist": "Career Club",
+        "prodAlbum": "Pure Hearing",
+        "prodRole": "Production, Composition, Engineering",
+        "prodYear": "2007"
+      },
+      {
+        "prodArtist": "Career Club",
+        "prodAlbum": "The New Album",
+        "prodRole": "Production, Composition, Engineering",
+        "prodYear": "2006"
+      },
+      {
+        "prodArtist": "Laughing Us",
+        "prodAlbum": "Foxy Universe",
+        "prodRole": "Production, Programming, Composition, Engineering",
+        "prodYear": "1999"
+      },
+      {
+        "prodArtist": "Laughing Us",
+        "prodAlbum": "Roc En Ingles Con Laughing Us",
+        "prodRole": "Production, Programming, Engineering",
+        "prodYear": "1997"
+      },
+      {
+        "prodArtist": "Julia Marvel",
+        "prodAlbum": "The Turkey Sessions",
+        "prodRole": "Production, Programming, Composition, Engineering",
+        "prodYear": "2005"
+      },
+      {
+        "prodArtist": "Beat Corp",
+        "prodAlbum": "Permanent Jetlag",
+        "prodRole": "Production, Programming, Composition, Engineering",
+        "prodYear": "2002"
+      }
+    ],
+    "remix": [
+      {
+        "remixInfo": "from Dance Chant Rock (Jaik Grace) independent release",
+        "remixSong": "Radha Rave Dance Mix"
+      },
+      {
+        "remixInfo": "from the “Never Trust A Man EP” with Joe Faraci",
+        "remixSong": "DARK CREW - Never Trust A Man"
+      },
+      {
+        "remixInfo": "with Keith Kohn",
+        "remixSong": "Zeitmaul - Boy gun Remix (Morphic Field Mix)"
+      },
+      {
+        "remixInfo": "from the Jack Off Jill Remix album 'Covetous Creature' with Joe Faraci",
+        "remixSong": "Jack Off Jill - Poor Impulse Control (750 degrees Mix)"
+      },
+      {
+        "remixInfo": "with Morphic Field/MegaMega under Velcro",
+        "remixSong": "Laughing Us (Deeper Than Deep Mix) - from the album 'Roc En Ingles Con Laughing Us'"
+      }
+    ],
+    "engineer": [
+      {
+        "engArtist": "George Clinton",
+        "engAlbum": "T.A.P.A.F.O.M",
+        "engRole": "Engineer- Tracking"
+      },
+      {
+        "engArtist": "Paula Abdul",
+        "engAlbum": "The Choice is Yours",
+        "engRole": "Engineer- Tracking, Asst. Eng- Mixing"
+      },
+      {
+        "engArtist": "The Roots",
+        "engAlbum": "Illadelph Halflife, 'High School High' soundtrack",
+        "engRole": "Engineer- Tracking, Mixing"
+      },
+      {
+        "engArtist": "George Michael",
+        "engAlbum": "'Fast Love' remix , producer- Brice Wilson",
+        "engRole": "Engineer- Tracking, Mixing"
+      },
+      {
+        "engArtist": "'Fled' Soundtrack",
+        "engAlbum": "Gods Gift to God 'Word', Lou 'Spain'",
+        "engRole": "Engineer- Mixing"
+      },
+      {
+        "engArtist": "D.O.C.",
+        "engAlbum": "Helter Skelter",
+        "engRole": "Engineer- Tracking"
+      },
+      {
+        "engArtist": "Deborah Cox",
+        "engAlbum": "Deborah Cox",
+        "engRole": "Engineer- Tracking, Asst. Eng-Mixing"
+      },
+      {
+        "engArtist": "D.F.C",
+        "engAlbum": "Whole World's Rotten",
+        "engRole": "Engineer- Tracking, Mixing"
+      },
+      {
+        "engArtist": "Royal C",
+        "engAlbum": "Roll Out the Red Carpet",
+        "engRole": "Engineer- Tracking"
+      },
+      {
+        "engArtist": "Mc Brains",
+        "engAlbum": "Brainwashed",
+        "engRole": "Engineer- Mixing"
+      },
+      {
+        "engArtist": "For Real",
+        "engAlbum": "Free",
+        "engRole": "Engineer- Tracking"
+      },
+      {
+        "engArtist": "K.C. Grogan",
+        "engAlbum": "What Girls Are Made Of",
+        "engRole": "Engineer- Tracking, Mixing"
+      },
+      {
+        "engArtist": "Eternal",
+        "engAlbum": "Power of a Woman",
+        "engRole": "Engineer- Tracking, Asst. Eng.- Mixing"
+      },
+      {
+        "engArtist": "Jamal",
+        "engAlbum": "Last chance - No Breaks",
+        "engRole": "Engineer- Tracking"
+      },
+      {
+        "engArtist": "DARP Demos",
+        "engAlbum": "Pro: X Hardgrove, Arnold Hennings, Debra Killings, Tim Kelly and Bob Robinson, PME, Ebony Mind Ent.(Carlos and DADA), KB and Spec",
+        "engRole": "Engineer- Tracking, Mixing"
+      },
+      {
+        "engArtist": "Blackdown",
+        "engAlbum": "Blackdown",
+        "engRole": "Engineer-  Mixing"
+      },
+      {
+        "engArtist": "Johnta Austin",
+        "engAlbum": "Album Project",
+        "engRole": "Engineer-  Tracking, Pro- Pharell/ Chad Hugo"
+      },
+      {
+        "engArtist": "Goodie Mob",
+        "engAlbum": "Soul Food",
+        "engRole": "Engineer-  Tracking"
+      },
+      {
+        "engArtist": "Boys II Men",
+        "engAlbum": "Remix Album- Motown",
+        "engRole": "Asst. Eng- Mixing"
+      },
+      {
+        "engArtist": "Sheryl Crow, Sarah McLachlan, Urge Overkill, Greenbury Woods, Crowded House, Tony Bennett, Brian Setzer, Material Issue, Indians, Phish",
+        "engAlbum": "Live x/ 99.7 FM Acoustic Performances, Purple Dragon Recording",
+        "engRole": "Asst. Eng- Tracking/Mixing"
+      },
+      {
+        "engArtist": "Monica",
+        "engAlbum": "Miss Thang",
+        "engRole": "Asst. Eng - Tracking"
+      },
+      {
+        "engArtist": "112",
+        "engAlbum": "112",
+        "engRole": "Asst. Engineer-  Mixing"
+      },
+      {
+        "engArtist": "Speech",
+        "engAlbum": "Vagabond",
+        "engRole": "Asst. Eng- Tracking/Mixing"
+      },
+      {
+        "engArtist": "Kaycee Grogan",
+        "engAlbum": "What Girls Are Made of",
+        "engRole": "Asst. Eng- Tracking/Mixing"
+      },
+      {
+        "engArtist": "D'Angelo",
+        "engAlbum": "George Michael remixes",
+        "engRole": "Asst. Eng- Tracking/Mixing"
+      },
+      {
+        "engArtist": "Braxtons",
+        "engAlbum": "'Only You' remixes",
+        "engRole": "Asst. Eng- Tracking/Mixing"
+      }
+    ],
+    "seq": [
+      {
+        "seqProj": "SoSo def bass compilation",
+        "seqRole": "digital editing and sequencing"
+      },
+      {
+        "seqProj": "FLED Soundtrack",
+        "seqRole": "digital editing and sequencing"
+      },
+      {
+        "seqProj": "Risk Records Album compilation (1 and 2)",
+        "seqRole": "digital editing and sequencing"
+      },
+      {
+        "seqProj": "99.7 fm Live X CD",
+        "seqRole": "digital assembly"
+      }
+    ]
+  }
+}
