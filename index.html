@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="scripts/jquery-1.8.3.min.js"></script>
-  <script src="scripts/underscore-min.js"></script>
-  <script src="scripts/backbone-min.js"></script>
-  <script src="scripts/main.js"></script>
-  <title>I have a back bone disco</title>
+  <script src="js/lib/jquery-1.8.3.min.js"></script>
+  <script src="js/lib/underscore-min.js"></script>
+  <script src="js/lib/backbone-min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/template" id="tv-item-template">
+    <% if (typeof showTitle !== 'undefined') { %>
+      <li><%= showTitle %></li>
+    <% } %>
+    <% if (typeof network !== 'undefined') { %>
+      <li><%= network %></li>
+    <% } %>
+    <% if (typeof episodeTitle !== 'undefined') { %>
+      <li><%= episodeTitle %></li>
+    <% } %>
+
+    <% if (typeof filmComposition !== 'undefined') { %>
+      <li><%= filmComposition %></li>
+    <% } %>
+    <% if (typeof filmTitle !== 'undefined') { %>
+      <li><%= filmTitle %></li>
+    <% } %>
+    <% if (typeof filmYear !== 'undefined') { %>
+      <li><%= filmYear %></li>
+    <% } %>
+
+    <% if (typeof prodAlbum !== 'undefined') { %>
+      <li><%= prodAlbum %></li>
+    <% } %>
+    <% if (typeof prodArtist !== 'undefined') { %>
+      <li><%= prodArtist %></li>
+    <% } %>
+    <% if (typeof prodRole !== 'undefined') { %>
+      <li><%= prodRole %></li>
+    <% } %>
+    <% if (typeof prodYear !== 'undefined') { %>
+      <li><%= prodYear %></li>
+    <% } %>
+
+    <% if (typeof seqProject !== 'undefined') { %>
+      <li><%= seqProject %></li>
+    <% } %>
+    <% if (typeof seqRole !== 'undefined') { %>
+      <li><%= seqRole %></li>
+    <% } %>
+
+    <% if (typeof remixInfo !== 'undefined') { %>
+      <li><%= remixInfo %></li>
+    <% } %>
+    <% if (typeof remixSong !== 'undefined') { %>
+      <li><%= remixSong %></li>
+    <% } %>
+  </script>
+  <script type="text/template" id="article-template">
+    <h2><%= title %></h2>
+    <table>
+      <div class='items'></div>
+    </table>
+  </script>
+  <title>Hans J Gutknecht. Discography</title>
 </head>
+
 <body>
 
+  <div id="app">
+  </div>
 
 </body>
 </html>
