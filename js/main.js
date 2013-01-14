@@ -81,33 +81,41 @@ $(document).ready(function () {
     },
     parse: function(response) {
       var credits = {};
-      credits = response.credits.eng;
+      console.log(response.credits);
+      credits = response.credits.engineer;
       return credits;
     }
   });
 
   // Views
   var ItemView = Backbone.View.extend({
-    tagname:  'table',
+    
+    tagName:  'tr',
+
     template: _.template($('#tv-item-template').html()),
+    
     events: {},
-    initialize: function () {},
-    render: function () {
+    
+    initialize: function() {},
+    
+    render: function() {
       console.dir(this.model.attributes);
       $(this.el).html(this.template(this.model.attributes));
       return this;
     }
+
   });
 
   var ContainerView = Backbone.View.extend({
     
-    tagname: 'article',
+    tagName: 'article',
     
     template: _.template($('#article-template').html()),
 
     initialize: function (options) {
       console.log('[ContainerView] initalized');
       $(this.el).html(this.template({title: options.title}));
+      this.collection.bind('reset', this.render, this);
     },
 
     render: function (options) {
@@ -115,11 +123,11 @@ $(document).ready(function () {
       var i = 0;
       var ret = '';
       var self = this;
-      this.collection.each(function(item) {
+      this.collection.each($.proxy(function (item) {
         console.dir(self.options.section);  
         var view = new ItemView({model: item, section: self.options.section});
-        self.$('article .items').append(view.render().el);
-      });
+        this.$('table tbody').append(view.render().el);
+      }, this));
       return this;
     }
 
@@ -131,60 +139,56 @@ $(document).ready(function () {
 
     initialize: function () {
       
-      // Initalize TV collection
-      var tvCredits = new TvCredits();
-      // Fetch and render tv
-      tvCredits.fetch({success: $.proxy(function () {
-        this.drawTv(tvCredits);
-      }, this)});
-
       // Initalize Film collection
       var filmCredits = new FilmCredits();
+      // Initalize TV collection
+      var tvCredits = new TvCredits();
+      // Initalize Production collection
+      var prodCredits = new ProdCredits();
+      // Initalize Remix collection
+      var remixCredits = new RemixCredits();
+      // Initalize Engineer collection
+      var engCredits = new EngCredits();
+      // Initalize Sequencer collection
+      var seqCredits = new SeqCredits();
+
       // Fetch and render film
       filmCredits.fetch({success: $.proxy(function () {
         this.drawFilm(filmCredits);
+        // Fetch and render tv
+        tvCredits.fetch({success: $.proxy(function () {
+          this.drawTv(tvCredits);
+          // Fetch and render prod
+          prodCredits.fetch({success: $.proxy(function () {
+            this.drawProd(prodCredits);
+            // Fetch and render remix
+            remixCredits.fetch({success: $.proxy(function () {
+              this.drawRemix(remixCredits);
+              // Fetch and render film
+              engCredits.fetch({success: $.proxy(function () {
+                this.drawEng(engCredits);
+                // Fetch and render film
+                seqCredits.fetch({success: $.proxy(function () {
+                  this.drawSeq(seqCredits);
+                }, this)});
+              }, this)});
+            }, this)});
+          }, this)});
+        }, this)});
       }, this)});
-
-      // Initalize Production collection
-      var prodCredits = new ProdCredits();
-      // Fetch and render prod
-      prodCredits.fetch({success: $.proxy(function () {
-        this.drawProd(prodCredits);
-      }, this)});
-
-      // Initalize Remix collection
-      var remixCredits = new RemixCredits();
-      // Fetch and render remix
-      remixCredits.fetch({success: $.proxy(function () {
-        this.drawRemix(remixCredits);
-      }, this)});
-
-      // Initalize Engineer collection
-      var engCredits = new EngCredits();
-      // Fetch and render film
-      engCredits.fetch({success: $.proxy(function () {
-        this.drawEng(engCredits);
-      }, this)});
-
-      // Initalize Sequencer collection
-      var seqCredits = new SeqCredits();
-      // Fetch and render film
-      seqCredits.fetch({success: $.proxy(function () {
-        this.drawSeq(seqCredits);
-      }, this)});
-
-    },
-
-    drawTv: function(tvCredits) {
-      console.log('draw tv');
-      var tvCredits = new ContainerView({section: 'tv', collection: tvCredits, title: 'Television Credits'});
-      $('#app').append(tvCredits.render().el);
+      
     },
 
     drawFilm: function(filmCredits) {
       console.log('draw film');
       var filmCredits = new ContainerView({section: 'film', collection: filmCredits, title: 'Film Credits'});
       $('#app').append(filmCredits.render().el);
+    },
+
+    drawTv: function(tvCredits) {
+      console.log('draw tv');
+      var tvCredits = new ContainerView({section: 'tv', collection: tvCredits, title: 'Television Credits'});
+      $('#app').append(tvCredits.render().el);
     },
 
     drawProd: function(prodCredits) {

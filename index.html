@@ -7,56 +7,67 @@
   <script src="js/main.js"></script>
   <script type="text/template" id="tv-item-template">
     <% if (typeof showTitle !== 'undefined') { %>
-      <li><%= showTitle %></li>
+      <td><%= showTitle %></td>
     <% } %>
     <% if (typeof network !== 'undefined') { %>
-      <li><%= network %></li>
+      <td><%= network %></td>
     <% } %>
     <% if (typeof episodeTitle !== 'undefined') { %>
-      <li><%= episodeTitle %></li>
+      <td><%= episodeTitle %></td>
     <% } %>
 
     <% if (typeof filmComposition !== 'undefined') { %>
-      <li><%= filmComposition %></li>
+      <td><%= filmComposition %></td>
     <% } %>
     <% if (typeof filmTitle !== 'undefined') { %>
-      <li><%= filmTitle %></li>
+      <td><%= filmTitle %></td>
     <% } %>
     <% if (typeof filmYear !== 'undefined') { %>
-      <li><%= filmYear %></li>
+      <td><%= filmYear %></td>
+    <% } %>
+
+    <% if (typeof engAlbum !== 'undefined') { %>
+      <td><%= engAlbum %></td>
+    <% } %>
+    <% if (typeof engArtist !== 'undefined') { %>
+      <td><%= engArtist %></td>
+    <% } %>
+    <% if (typeof engRole !== 'undefined') { %>
+      <td><%= engRole %></td>
     <% } %>
 
     <% if (typeof prodAlbum !== 'undefined') { %>
-      <li><%= prodAlbum %></li>
+      <td><%= prodAlbum %></td>
     <% } %>
     <% if (typeof prodArtist !== 'undefined') { %>
-      <li><%= prodArtist %></li>
+      <td><%= prodArtist %></td>
     <% } %>
     <% if (typeof prodRole !== 'undefined') { %>
-      <li><%= prodRole %></li>
+      <td><%= prodRole %></td>
     <% } %>
     <% if (typeof prodYear !== 'undefined') { %>
-      <li><%= prodYear %></li>
+      <td><%= prodYear %></td>
     <% } %>
 
-    <% if (typeof seqProject !== 'undefined') { %>
-      <li><%= seqProject %></li>
+    <% if (typeof seqProj !== 'undefined') { %>
+      <td><%= seqProj %></td>
     <% } %>
     <% if (typeof seqRole !== 'undefined') { %>
-      <li><%= seqRole %></li>
+      <td><%= seqRole %></td>
     <% } %>
 
     <% if (typeof remixInfo !== 'undefined') { %>
-      <li><%= remixInfo %></li>
+      <td><%= remixInfo %></td>
     <% } %>
     <% if (typeof remixSong !== 'undefined') { %>
-      <li><%= remixSong %></li>
+      <td><%= remixSong %></td>
     <% } %>
   </script>
   <script type="text/template" id="article-template">
     <h2><%= title %></h2>
     <table>
-      <div class='items'></div>
+      <tbody>
+      </tbody>
     </table>
   </script>
   <title>Hans J Gutknecht. Discography</title>
